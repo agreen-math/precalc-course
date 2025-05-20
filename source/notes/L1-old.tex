@@ -1,0 +1,200 @@
+\chapter{Functions}
+
+\section{Lesson Objectives}
+\begin{itemize}
+    \item Find domain \& range of functions. \\\textbf{\och}
+    \item Determine symmetry of functions. \\\textbf{\och}
+    \item Graph functions using transformations. \\\textbf{\oca}
+    \item Write equations for transformed functions. \\\textbf{\och}
+    \item Find compositions of functions. \\\textbf{\oca}
+    \item Find inverses of functions. \\\textbf{\oca}
+    \item Use graphs to solve inequalities. \\\textbf{\oca}
+    \item Solve inequalities using the test-point method. \\\textbf{\och}
+\end{itemize}
+
+\begin{tikzpicture}
+[remember picture, overlay] 
+\node[] at (17.7,13.5)   {\href{https://www.desmos.com/calculator/eafurosrqt}{\includegraphics[width=.5in]{img/2412L1.png}}};
+\end{tikzpicture}
+
+\newpage
+
+\section{Recall Information from Previous Courses}
+\subsection{Function Vocabulary}
+\begin{definition}[domain]
+ The \textbf{domain} of a function $f$ is the \underline{\hl{largest}} set of \underline{\hl{real numbers}} for which the value \underline{\hl{$f(x)$}} is a \underline{\hl{real number}}.\\ \\
+Things to look out for
+\begin{itemize}
+    \item Division by \underline{\hl{zero}}
+    \item \underline{\hl{Even}} roots of \underline{\hl{negative}} numbers
+\end{itemize}
+ NOTE: For word problems/verbal descriptions, the domain depends on the real-world \underline{\hl{context}} of the model.\\ \\
+\end{definition}
+  \begin{example}
+     \textit{Finding the domain of a function from an equation}\\
+     \vspace*{12 pt}
+         $f(x)=3x+2$ \hspace{\hfill} $g(x)=\dfrac{3x+2}{x+1}$ \hspace{\hfill} $h(x)=\sqrt{x-3}$
+ \end{example}
+ 
+ \vspace{\stretch{1}}
+ 
+\begin{definition}[zero]
+ If $f$ is a function and $r$ is a real number for which \underline{\hl{$f(r)=0$}}, then $r$ is a \textbf{zero} of $f$. In other words, $r$ is an \underline{\hl{x-intercept}} of the \underline{\hl{graph}} of $f$.
+\end{definition}
+\begin{definition}[maximum]
+ The \textbf{maximum} of a function $f$ is the \underline{\hl{largest}} value in the \underline{\hl{range}} of $f$. On the graph of $f$, the maximum is the \underline{\hl{y-coordinate}} of a point at the \underline{\hl{top}} of a \underline{\hl{peak}}.
+\end{definition}
+\begin{definition}[minimum]
+ The \textbf{minimum} of a function $f$ is the \underline{\hl{smallest}} value in the \underline{\hl{range}} of $f$. On the graph of $f$, the minimum is the \underline{\hl{y-coordinate}} of a point at the \underline{\hl{bottom}} of a \underline{\hl{valley}}.
+\end{definition}
+
+\newpage
+
+\begin{definition}[even]
+    A function $f$ is \textbf{even} if and only if it is symmetric with respect to the \underline{\hl{$y$-axis}}.\\ \underline{\hl{$f(x)=f(-x)$}} for every $x$-value in the domain of $f$
+\end{definition}
+\begin{definition}[odd]
+    A function $f$ is \textbf{odd} if and only if it is symmetric with respect to the \underline{\hl{origin}}.\\ \underline{\hl{$f(-x)=-f(x)$}} for every $x$-value in the domain of $f$
+\end{definition}
+%\newpage
+
+\begin{example}
+    \textit{(Determining Symmetry from an Equation)}\\ \\
+    $f(x)=x^4+3x^2-x$
+\end{example}
+\vspace{\stretch{1}}
+
+\subsection{Toolkit Functions}
+
+%\renewcommand{\arraystretch}{1.5}
+\begin{center}
+\begin{tabular}{|c|c|}\hline
+    \textbf{Constant} &  \textbf{Identity} \\
+    $\mathbf{f(x)=c}$, where $c$ is a constant & $\mathbf{f(x)=x}$ \\
+    &  \\
+    \includegraphics[width=2.25in]{img/toolkit-constant.jpg} & \includegraphics[width=2.25in]{img/toolkit-identity.jpg}\\\hline
+    \textbf{Absolute Value} &  \textbf{Quadratic} \\
+    $\mathbf{f(x)=|x|}$ & $\mathbf{f(x)=x^2}$ \\
+    &  \\
+    \includegraphics[width=2.5in]{img/toolkit-absval.jpg} & \includegraphics[width=2.5in]{img/toolkit-quadratic.jpg}\\\hline
+    \textbf{Cubic} &  \textbf{Reciprocal} \\
+    $\mathbf{f(x)=x^3}$ & $\mathbf{f(x)=\dfrac{1}{x}}$ \\
+    &  \\
+    \includegraphics[width=2.5in]{img/toolkit-cubic.jpg} & \includegraphics[width=2.5in]{img/toolkit-reciprocal.jpg}\\\hline
+        \textbf{Square Root} &  \textbf{Cube Root} \\
+    $\mathbf{f(x)=\sqrt{x}}$ & $\mathbf{f(x)=\sqrt[3]{x}}$ \\
+    &  \\
+    \includegraphics[width=2.5in]{img/toolkit-sqrt.jpg} & \includegraphics[width=2.5in]{img/toolkit-cubert.jpg}\\\hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+\subsection{Transformations of Functions}
+\begin{definition}[transformation]
+ \textbf{Transformations} are rule-based \underline{\hl{changes}} to the graph of a function. Each transformation can occur in one of two directions: \underline{\hl{vertical}} or \underline{\hl{horizontal}}. There are three types of transformations:
+\begin{itemize}
+    \item \underline{\hl{Translation}}- This represents a change in \underline{\hl{location}}.
+    \item \underline{\hl{Dilation}}- This represents a change in \underline{\hl{size}}.
+    \item \underline{\hl{Reflection}}- This represents a change in \underline{\hl{orientation}}.
+\end{itemize}
+\end{definition}
+Given a function $f(x)$, a transformation of $f(x)$ is a function of the form
+
+\vspace{-.25in}
+\begin{center}
+    \Huge{\[g(x)=\mathbf{a}\cdot f\left(\mathbf{b}\left(x-\mathbf{c}\right)\right)+\mathbf{d}\]}
+\end{center}
+
+\vspace{.5in}
+
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{l l}\hline
+    \textbf{$\mathbf{a}$: vertical dilation and/or reflection} & negative: reflect over $x$-axis\\
+    & $\mathbf{|a|}>1$ taller \qquad $\mathbf{|a|}<1$ shorter\\ \hline
+    \textbf{$\mathbf{b}$: horizontal dilation and/or reflection} & negative: reflect over $y$-axis\\
+    & $\mathbf{|b|}>1$ narrower \qquad $\mathbf{|b|}<1$ wider\\ \hline
+    \textbf{$\mathbf{c}$: horizontal translation} & $\mathbf{c}$ positive (subtraction from $x$): right\\
+    & $\mathbf{c}$ negative (addition to x): left\\ \hline
+    \textbf{$\mathbf{d}$: vertical translation} & $\mathbf{d}$ positive: up\\
+    & $\mathbf{d}$ negative: down\\ \hline
+\end{tabular}
+
+\vspace*{.25in}
+
+\noindent{Note: Follow the order of operations to perform multiple transformations in sequence: $\mathbf{c}$, then $\mathbf{b}$, then $\mathbf{a}$, then $\mathbf{d}$.}
+
+\newpage
+
+\begin{example}
+    \textit{(Transforming Points)}\\Describe the sequence of transformations of the graph of $f(x)=x^2$ to obtain the graph of $g(x)=-3(x+2)^2 -1$, then sketch $g(x)$.    
+\end{example}
+\vspace{\stretch{1.5}}
+\begin{example}
+    \textit{(Transforming Features)}\\Describe the sequence of transformations of the graph of $f(x)=|x|$ to obtain the graph of $g(x)=-3|x+2|-1$, then sketch $g(x)$.
+\end{example}
+\vspace{\stretch{1}}
+
+\newpage
+
+\subsection{Combining and Undoing Functions}
+\begin{definition}[Function Operations \& Compositions]
+    Given two functions $f(x)$ and $g(x)$\\
+\end{definition}    
+    \renewcommand{\arraystretch}{3}
+    
+    \begin{tabular}{rllp{4cm}}\hline
+        \textbf{sum} &  ``f plus g'' & $(f+g)(x)=f(x)+g(x)$ & \multirow{3}{4cm}{provided $x$ is common to the domains of both $f$ and $g$}\\
+        \textbf{difference} & ``f minus g'' & $(f-g)(x)=f(x)-g(x)$\\
+        \textbf{product} & ``f times g'' & $(f\cdot g)(x)=f(x)\cdot g(x)$\\\hline
+        \textbf{quotient} & ``f divided by g'' & $\left(\dfrac{f}{g}\right)(x)=\dfrac{f(x)}{g(x)}$ & provided $g(x)\neq0$\\\hline
+        & ``f composed with g'' & & \multirow{3}{4cm}{provided $x$ is in the domain of $g$ and $g(x)$ is in the domain of $f$}\\
+        \textbf{composition} & ``f after g''&$(f\circ g)(x)=f(g(x))$\\
+        & ``f of g''&\\\hline
+    \end{tabular}
+
+\newpage
+
+\begin{definition}[Inverse Function]
+    Let $f$ and $g$ be two functions such that\\
+    \begin{itemize}
+        \item $(f\circ g)(x)=f(g(x))=x$ for every $x$ in the domain of $g$
+    \end{itemize}
+    \begin{center}and\end{center}\\
+    \begin{itemize}
+        \item $(g\circ f)(x)=g(f(x))=x$ for every $x$ in the domain of $f$
+    \end{itemize}
+Then the function $g$ is called the \textbf{inverse function of $\mathbf{f}$} and is denoted by $f^{-1}$.
+    \end{definition}
+
+\subsubsection{Finding the Inverse of a Function}
+
+\begin{multicols}{2}
+Given an equation:\\
+\begin{itemize}
+    \item Change $f(x)$ to $y$ if needed.
+    \item Swap $x$ and $y$.
+    \item Solve for $y$.
+    \item Change $y$ to $f^{-1}(x)$ if needed.
+\end{itemize}
+\columnbreak
+Given a graph:\\
+\begin{itemize}
+    \item Swap individual coordinates \& connect the dots:\\
+          $(a,b)$ on the original becomes\\
+          $(b,a)$ on the inverse.
+    \item Alternatively, reflect the entire graph over the line $y=x$.
+\end{itemize}
+\end{multicols}
+
+\begin{example}
+    \textit{(Finding the inverse of a function from an equation.)} \\\\$f(x)=\dfrac{x+1}{x-2}$
+\end{example}
+
+\newpage
+
+\subsection{Inequalities Involving Functions}
+General strategy: Treat inequalities like equations, then test points to determine which interval(s) to include in your solution.
+\begin{example}
+    $|x-6|-3\leq-2$
+\end{example}

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+        <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet margin="1in" bottom="1.25cm" xml:id="Activity-title">
+            <title>Lesson 1: Functions</title>
+            <p>
+                <title>Lesson Objectives</title>
+            </p>
+
+            <p>
+                <ul>
+                    \item Find domain \& range of functions.
+                    \\<em><em>(Analyzing)</em></em>\item Determine symmetry of functions.
+                    \\<em><em>(Analyzing)</em></em>\item Graph functions using transformations.
+                    \\<em><em>(Foundations)</em></em>\item Write equations for transformed functions.
+                    \\<em><em>(Analyzing)</em></em>\item Find compositions of functions.
+                    \\<em><em>(Foundations)</em></em>\item Find inverses of functions.
+                    \\<em><em>(Foundations)</em></em>\item Use graphs to solve inequalities.
+                    \\<em><em>(Foundations)</em></em>\item Solve inequalities using the test-point method.
+                    \\.*
+                </ul>
+            </p>
+
+            <p>
+                \newpage
+            </p>
+
+            <p>
+                <title>Recall Information from Previous Courses</title> \subsection{Function Vocabulary}
+            </p>
+
+            <definition>
+                <title>domain</title>
+
+                <p>
+                    The domain of a function <m>f</m> is the <em>largest</em> set of <em>real numbers</em> for which the value <em>$f(x)$</em> is a <em>real number</em>.\\ \\ Things to look out for
+                </p>
+
+                <p>
+                    <ul>
+                        \item Division by <em>zero</em>\item <em>Even</em> roots of <em>negative</em> numbers
+                    </ul>
+                </p>
+
+                <note>
+                    <p>
+                        For word problems/verbal descriptions, the domain depends on the real-world <em>context</em> of the model.\\ \\
+                    </p>
+                </note>
+            </definition>
+
+            <example>
+                <p>
+                    \textit{Finding the domain of a function from an equation}\\ undefinedpace*{12 pt} <m>f(x)=3x+2</m> \hspace{\hfill} <m>g(x)=\dfrac{3x+2}{x+1}</m> \hspace{\hfill} <m>h(x)=\sqrt{x-3}</m>
+                </p>
+            </example>
+
+            <p>
+                undefinedpace{\stretch{1}}
+            </p>
+
+            <definition>
+                <title>zero</title>
+
+                <p>
+                    If <m>f</m> is a function and <m>r</m> is a real number for which <em>$f(r)=0$</em>, then <m>r</m> is a zero of <m>f</m>.
+                    In other words, <m>r</m> is an <em>x-intercept</em> of the <em>graph</em> of <m>f</m>.
+                </p>
+            </definition>
+
+            <definition>
+                <title>maximum</title>
+
+                <p>
+                    The <em>maximum</em> of a function <m>f</m> is the <em>largest</em> value in the <em>range</em> of <m>f</m>.
+                    On the graph of <m>f</m>, the maximum is the <em>y-coordinate</em> of a point at the <em>top</em> of a <em>peak</em>.
+                </p>
+            </definition>
+
+            <definition>
+                <title>minimum</title>
+
+                <p>
+                    The <em>minimum</em> of a function <m>f</m> is the <em>smallest</em> value in the <em>range</em> of <m>f</m>.
+                    On the graph of <m>f</m>, the minimum is the <em>y-coordinate</em> of a point at the <em>bottom</em> of a <em>valley</em>.
+                </p>
+            </definition>
+
+            <p>
+                \newpage
+            </p>
+
+            <definition>
+                <title>even</title>
+
+                <p>
+                    A function <m>f</m> is <em>even</em> if and only if it is symmetric with respect to the <em>$y$-axis</em>.\\ <em>$f(x)=f(-x)$</em> for every <m>x</m>-value in the domain of <m>f</m>
+                </p>
+            </definition>
+
+            <definition>
+                <title>odd</title>
+
+                <p>
+                    A function <m>f</m> is <em>odd</em> if and only if it is symmetric with respect to the <em>origin</em>.\\ <em>$f(-x)=-f(x)$</em> for every <m>x</m>-value in the domain of <m>f</m>
+                </p>
+            </definition>
+
+            <p>
+                %\newpage
+            </p>
+
+            <example>
+                <p>
+                    \textit{(Determining Symmetry from an Equation)}\\ \\ <m>f(x)=x^4+3x^2-x</m>
+                </p>
+            </example>
+
+            <p>
+                undefinedpace{\stretch{1}}
+            </p>
+
+            <p>
+                \subsection{Toolkit Functions}
+            </p>
+
+            <p>
+                %\renewcommand{\arraystretch}{1.5} \begin{center}
+            </p>
+
+            <tabular>
+                {|c|c|}\hline <em>Constant</em> &  <em>Identity</em> \\ $\mathbf{f(x)=c}$, where $c$ is a constant & $\mathbf{f(x)=x}$ \\ &  \\ <image source="img/toolkit-constant.jpg" width="50%"/> & \includegraphics[width=2.25in]{img/toolkit-identity.jpg}\\\hline <em>Absolute Value</em> &  <em>Quadratic</em> \\ $\mathbf{f(x)=|x|}$ & $\mathbf{f(x)=x^2}$ \\ &  \\ \includegraphics[width=2.5in]{img/toolkit-absval.jpg} & \includegraphics[width=2.5in]{img/toolkit-quadratic.jpg}\\\hline <em>Cubic</em> &  <em>Reciprocal</em> \\ $\mathbf{f(x)=x^3}$ & $\mathbf{f(x)=\dfrac{1}{x}}$ \\ &  \\ \includegraphics[width=2.5in]{img/toolkit-cubic.jpg} & \includegraphics[width=2.5in]{img/toolkit-reciprocal.jpg}\\\hline <em>Square Root</em> &  <em>Cube Root</em> \\ $\mathbf{f(x)=\sqrt{x}}$ & $\mathbf{f(x)=\sqrt[3]{x}}$ \\ &  \\ \includegraphics[width=2.5in]{img/toolkit-sqrt.jpg} & \includegraphics[width=2.5in]{img/toolkit-cubert.jpg}\\\hline
+            </tabular>
+
+            <p>
+                \end{center}
+            </p>
+
+            <p>
+                \newpage
+            </p>
+
+            <p>
+                \subsection{Transformations of Functions}
+            </p>
+
+            <definition>
+                <title>transformation</title>
+
+                <p>
+                    <em>Transformations</em> are rule-based <em>changes</em> to the graph of a function.
+                    Each transformation can occur in one of two directions: <em>vertical</em> or <em>horizontal</em>.
+                    There are three types of transformations:
+                </p>
+
+                <p>
+                    <ul>
+                        \item <em>Translation</em>- This represents a change in <em>location</em>.\item <em>Dilation</em>- This represents a change in <em>size</em>.\item <em>Reflection</em>- This represents a change in <em>orientation</em>.
+                    </ul>
+                </p>
+            </definition>
+
+            <p>
+                Given a function <m>f(x)</m>, a transformation of <m>f(x)</m> is a function of the form
+            </p>
+
+            <p>
+                undefinedpace{-.25in} \begin{center} undefinedge{
+                <men>
+                    g(x)=\mathbf{a}\cdot f\left(\mathbf{b}\left(x-\mathbf{c}\right)\right)+\mathbf{d}
+                </men>
+            </p>
+
+            <p>
+                } \end{center}
+            </p>
+
+            <p>
+                undefinedpace{.5in}
+            </p>
+
+            <p>
+                \renewcommand{\arraystretch}{2}
+            </p>
+
+            <tabular>
+                {l l}\hline <em>$\mathbf{a</em>$: vertical dilation and/or reflection} & negative: reflect over $x$-axis\\ & $\mathbf{|a|}>1$ taller \qquad $\mathbf{|a|}<1$ shorter\\ \hline <em>$\mathbf{b</em>$: horizontal dilation and/or reflection} & negative: reflect over $y$-axis\\ & $\mathbf{|b|}>1$ narrower \qquad $\mathbf{|b|}<1$ wider\\ \hline <em>$\mathbf{c</em>$: horizontal translation} & $\mathbf{c}$ positive (subtraction from $x$): right\\ & $\mathbf{c}$ negative (addition to x): left\\ \hline <em>$\mathbf{d</em>$: vertical translation} & $\mathbf{d}$ positive: up\\ & $\mathbf{d}$ negative: down\\ \hline
+            </tabular>
+
+            <p>
+                undefinedpace*{.25in}
+            </p>
+
+            <p>
+                \noindent{Note: Follow the order of operations to perform multiple transformations in sequence: <m>\mathbf{c}</m>, then <m>\mathbf{b}</m>, then <m>\mathbf{a}</m>, then <m>\mathbf{d}</m>.}
+            </p>
+
+            <p>
+                \newpage
+            </p>
+
+            <example>
+                <p>
+                    \textit{(Transforming Points)}\\Describe the sequence of transformations of the graph of <m>f(x)=x^2</m> to obtain the graph of <m>g(x)=-3(x+2)^2 -1</m>, then sketch <m>g(x)</m>.
+                </p>
+            </example>
+
+            <p>
+                undefinedpace{\stretch{1.5}}
+            </p>
+
+            <example>
+                <p>
+                    \textit{(Transforming Features)}\\Describe the sequence of transformations of the graph of <m>f(x)=|x|</m> to obtain the graph of <m>g(x)=-3|x+2|-1</m>, then sketch <m>g(x)</m>.
+                </p>
+            </example>
+
+            <p>
+                undefinedpace{\stretch{1}}
+            </p>
+
+            <p>
+                \newpage
+            </p>
+
+            <p>
+                \subsection{Combining and Undoing Functions}
+            </p>
+
+            <definition>
+                <title>Function Operations \& Compositions</title>
+
+                <p>
+                    Given two functions <m>f(x)</m> and $g(x)$\\
+                </p>
+            </definition>
+
+            <p>
+                \renewcommand{\arraystretch}{3}
+            </p>
+
+            <tabular>
+                {rllp{4cm}}\hline <em>sum</em> &  ``f plus g'' & $(f+g)(x)=f(x)+g(x)$ & \multirow{3}{4cm}{provided $x$ is common to the domains of both $f$ and $g$}\\ <em>difference</em> & ``f minus g'' & $(f-g)(x)=f(x)-g(x)$\\ <em>product</em> & ``f times g'' & $(f\cdot g)(x)=f(x)\cdot g(x)$\\\hline <em>quotient</em> & ``f divided by g'' & $\left(\dfrac{f}{g}\right)(x)=\dfrac{f(x)}{g(x)}$ & provided $g(x)\neq0$\\\hline & ``f composed with g'' & & \multirow{3}{4cm}{provided $x$ is in the domain of $g$ and $g(x)$ is in the domain of $f$}\\ <em>composition</em> & ``f after g''&$(f\circ g)(x)=f(g(x))$\\ & ``f of g''&\\\hline
+            </tabular>
+
+            <p>
+                \newpage
+            </p>
+
+            <definition>
+                <title>Inverse Function</title>
+
+                <p>
+                    Let <m>f</m> and <m>g</m> be two functions such that\\
+                </p>
+
+                <p>
+                    <ul>
+                        \item $(f\circ g)(x)=f(g(x))=x$ for every $x$ in the domain of $g$
+                    </ul>
+                </p>
+
+                <p>
+                    \begin{center}and\end{center}\\
+                </p>
+
+                <p>
+                    <ul>
+                        \item $(g\circ f)(x)=g(f(x))=x$ for every $x$ in the domain of $f$
+                    </ul>
+                </p>
+
+                <p>
+                    Then the function <m>g</m> is called the <em>inverse function of $\mathbf{f</em>$} and is denoted by <m>f^{-1}</m>.
+                </p>
+            </definition>
+
+            <p>
+                \subsubsection{Finding the Inverse of a Function}
+            </p>
+
+            <p>
+                \begin{multicols}{2} Given an equation:\\
+            </p>
+
+            <p>
+                <ul>
+                    \item Change $f(x)$ to $y$ if needed.\item Swap $x$ and $y$.\item Solve for $y$.\item Change $y$ to $f^{-1}(x)$ if needed.
+                </ul>
+            </p>
+
+            <p>
+                undefinedlumnbreak Given a graph:\\
+            </p>
+
+            <p>
+                <ul>
+                    \item Swap individual coordinates \& connect the dots:\\ $(a,b)$ on the original becomes\\ $(b,a)$ on the inverse.\item Alternatively, reflect the entire graph over the line $y=x$.
+                </ul>
+            </p>
+
+            <p>
+                \end{multicols}
+            </p>
+
+            <example>
+                <p>
+                    \textit{(Finding the inverse of a function from an equation.)} \\\\$f(x)=\dfrac{x+1}{x-2}$
+                </p>
+            </example>
+
+            <p>
+                \newpage
+            </p>
+
+            <p>
+                \subsection{Inequalities Involving Functions} General strategy: Treat inequalities like equations, then test points to determine which interval(s) to include in your solution.
+            </p>
+
+            <example>
+                <p>
+                    <m>|x-6|-3\leq-2</m>
+                </p>
+            </example>
+            <!--
+            <introduction>
+                <p>
+                    This is the introduction to the activity.
+                </p>
+            </introduction>
+
+            <exercise workspace="2in">
+                <statement>
+                    <p>
+                        This is the first exercise.
+                    </p>
+                </statement>
+            </exercise>
+            -->
+        </worksheet>
+    </article>
+</pretext>
