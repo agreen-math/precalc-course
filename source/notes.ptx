@@ -4,15 +4,24 @@
   <article xml:id="ch-course-notes" >
     <title>Course Notes</title>
 
-    <introduction>
-      <p>
-        The following notes are intended to remind you what we covered each week.  They are not a substitute for attending class and not a substitute for reading the textbook.
-      </p>
-    </introduction>
-
-        <xi:include href=".notes/L1-notes.ptx" xpointer="L1-notes" />
-        <xi:include href="./notes/week01.ptx" xpointer="notes/1" />
-        <xi:include href="./notes/week02.ptx" xpointer="notes/1" />
+        <xi:include href="./notes/L1-notes.ptx" xpointer="L1-notes" />
+        <xi:include href="./notes/L2-notes.ptx" xpointer="L2-notes" />
+        <xi:include href="./notes/L3-notes.ptx" xpointer="L3-notes" />
+        <xi:include href="./notes/L4-notes.ptx" xpointer="L4-notes" />
+        <xi:include href="./notes/L5-notes.ptx" xpointer="L5-notes" />
+        <xi:include href="./notes/L6-notes.ptx" xpointer="L6-notes" />
+        <xi:include href="./notes/L7-notes.ptx" xpointer="L7-notes" />
+        <xi:include href="./notes/L8-notes.ptx" xpointer="L8-notes" />
+        <xi:include href="./notes/L9-notes.ptx" xpointer="L9-notes" />
+        <xi:include href="./notes/L10-notes.ptx" xpointer="L10-notes" />
+        <xi:include href="./notes/L11-notes.ptx" xpointer="L11-notes" />
+        <xi:include href="./notes/L12-notes.ptx" xpointer="L12-notes" />
+        <xi:include href="./notes/L13-notes.ptx" xpointer="L13-notes" />
+        <xi:include href="./notes/L14-notes.ptx" xpointer="L14-notes" />
+        <xi:include href="./notes/L15-notes.ptx" xpointer="L15-notes" />
+        <xi:include href="./notes/L16-notes.ptx" xpointer="L16-notes" />
+        <xi:include href="./notes/L17-notes.ptx" xpointer="L17-notes" />
+        <xi:include href="./notes/L18-notes.ptx" xpointer="L18-notes" />
 
     <!-- Add more xi:include files here to include them in the main course -->
   </article>

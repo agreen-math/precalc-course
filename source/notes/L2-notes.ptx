@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article>
+        <title>Polynomials</title>
+<section xml:id="L2-notes">
+    <title>Polynomials</title>
+<introduction xml:id="L2-objectives">
+    <title>Lesson Objectives</title>
+<p>
+    <ul>
+        <li>
+                Determine roots of polynomial functions, including multiplicity.
+                <alert> </alert>
+        </li>
+
+        <li>
+                Determine symmetry of polynomial functions.
+                <alert> </alert>
+        </li>
+
+        <li>
+                Determine end behavior of polynomial functions.
+                <alert> </alert>
+        </li>
+
+        <li>
+                Write the equation of a polynomial function given the characteristics or a graph of the polynomial function.
+                <alert> </alert>
+        </li>
+
+        <li>
+                Solve polynomial equations and inequalities.
+                <alert> </alert>
+        </li>
+
+        <li>
+                Sketch the graph of a polynomial function.
+                <alert> </alert>
+        </li>
+
+        <li>
+                Solve applications involving polynomial functions or inequalities.
+                <alert> </alert>
+        </li>
+    </ul></p>
+    </introduction>
+<subsection>
+    <title>Polynomial Functions</title>
+
+    <definition>
+        <title>Polynomial Function</title>
+
+        <statement>
+            <p>
+                A <alert>polynomial function</alert> is a function of the form
+                <me>
+                    f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots+a_{1}x+a_{0}
+                </me>
+                where
+                <ul>
+                    <li>
+                        <p>
+                            <m>a_{n}</m> is a real number called the <em>leading coefficient</em>
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            <m>n\ge 0</m> is a whole number called the <em>degree</em>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+    </p>
+
+    <ul>
+        <li>
+            <p>
+                The <em>domain</em> of a polynomial function is the set of <em>all real numbers</em>.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                The <em>graph</em> of a polynomial function is both <em>smooth</em> (no <em>sharp corners</em> or <em>cusps</em>) and <em>continuous</em> (no <em>gaps</em> or <em>holes</em>).
+            </p>
+        </li>
+    </ul>
+</subsection>
+
+    <subsection>
+        <title>The Leading Coefficient Test (End Behavior)</title>
+
+        <ul>
+            <li>
+                <p>
+                    <em>Odd</em> degree polynomial functions
+                    <ul>
+                        <li>
+                            <p>
+                                Ends go toward <em>opposite</em> infinities
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <em>Even</em> degree polynomial functions
+                    <ul>
+                        <li>
+                            <p>
+                                Ends go toward <em>the same</em> infinity
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <em>Positive</em> leading coefficient
+                    <ul>
+                        <li>
+                            <p>
+                                the right end goes toward <em>positive</em> infinity
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <em>Negative</em> leading coefficient
+                    <ul>
+                        <li>
+                            <p>
+                                the right end goes toward <em>negative</em> infinity
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    <image source="img/leadcoeff.png">
+                    </image>
+                </p>
+            </li>
+        </ul>
+
+        <p>
+        </p>
+    </subsection>
+
+
+    <subsection>
+        <title>Turning Points</title>
+
+        <p>
+            If <m>f</m> is a polynomial function of <em>degree</em> <m>n</m>, then the graph of <m>f</m> has <em>at most</em> <m>n-1</m> <em>turning points</em>.
+            (This also works in reverse: <m>n-1</m> <em>turning points</em> means the <em>degree is at least</em> <m>n</m>)
+        </p>
+    </subsection>
+
+
+    <subsection>
+        <title>Real Zeros and Multiplicity</title>
+
+        <p>
+            If <m>(x-r)^{m}</m> is a factor of a polynomial function <m>f</m> (where <m>m</m> is the <em>highest exponent</em> possible), then <m>r</m> is called a <em>real zero of multiplicity <m>m</m> of <m>f</m> </em>.
+        </p>
+
+        <ul>
+            <li>
+                <p>
+                    If <m>r</m> has <em>odd</em> multiplicity, the graph will <em>cross</em> the <m>x</m>-axis at <m>x=r</m>.
+                    <ul>
+                        <li>
+                            <p>
+                                The sign of <m>f(x)</m> <em>changes</em> from one side to the other.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    If <m>r</m> has <em>even</em> multiplicity, the graph will <em>bounce</em> the <m>x</m>-axis at <m>x=r</m>.
+                    <ul>
+                        <li>
+                            <p>
+                                The sign of <m>f(x)</m> <em>does not change</em> from one side to the other.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ul>
+
+        <p>
+            <alert>NOTE: Vocabulary</alert>  The following statements are equivalent for polynomial functions:
+        </p>
+
+        <ul>
+            <li>
+                <p>
+                    <m>r</m> is a real number for which <em> <m>f(r)=0</m> </em>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <m>r</m> is a <em>real zero</em> of the polynomial function <m>f</m>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <m>r</m> is a <em>root</em> of the polynomial function <m>f</m>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <m>r</m> is an <em> <m>x</m>-intercept</em> of the graph of <m>f</m>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <m>(x-r)</m> is a <em>factor</em> of the graph of <m>f</m>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <m>r</m> is a <em>real solution</em> of the equation <m>f(x)=0</m>
+                </p>
+            </li>
+        </ul>
+
+        <p>
+        </p>
+    </subsection>
+
+
+    <subsection>
+        <title>SUMMARY: Steps for Graphing a Polynomial Function</title>
+
+        <ol>
+            <li>
+                <p>
+                    Check for <em>symmetry</em>.
+                    (optional)
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Determine the <em>real zeros</em> of the function and their <em>multiplicities</em>.
+                    Use this information to determine whether the graph <em>crosses</em> or <em>bounces</em> on the <m>x</m>-axis at each <m>x</m>-intercept.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Determine the <em>end behavior</em> as <m>x\rightarrow\infty</m> and as <m>x\rightarrow-\infty</m>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Find the <em> <m>y</m>-intercept</em> of the graph of the function by evaluating <m>f(0)</m>.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Find <em>additional points</em> between intercepts as needed.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    Draw a <em>smooth curve</em> through the points to sketch the graph.
+                </p>
+            </li>
+        </ol>
+
+        <example>
+            <statement>
+                <p>
+                    <em>(Sketching the graph of a polynomial from factored form)</em>  <m>f(x)=(x-2)(x+3)^{2}(x-5)</m>
+                </p>
+            </statement>
+        </example>
+
+        <p>
+        </p>
+    </subsection>
+
+
+    <subsection>
+        <title>Solving Polynomial Inequalities</title>
+
+        <example>
+            <statement>
+                <p>
+                    Find all solutions to the inequality <m>x^{4}+x^{3}-15x^{2}-3x+36&#x3C;0</m>
+                </p>
+            </statement>
+        </example>
+    </subsection>
+</section>
+    </article>
+</pretext>
