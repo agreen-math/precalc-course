@@ -1,165 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-comb-undo" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Combining and Undoing Functions</title>
-<subsection>
-    <title>Combining Functions</title>
+    <title>Combining and Undoing Functions</title>
 
-    <p>
-      The sum, difference, product, and quotient of two functions are defined as follows:
-    </p>
-  <definition>
-    <title>Function Operations &#x26;Compositions</title>
+    <subsection>
+        <title>Combining Functions</title>
 
-    <statement>
-      <p>
-        Given two functions <m>f(x)</m> and <m>g(x)</m>
-      </p>
-    </statement>
-  </definition>
+        <p>
+            The sum, difference, product, and quotient of two functions are defined as follows:
+        </p>
 
-  <tabular>
-    <col halign="right"> </col> <col> </col> <col> </col> <col halign="justify"> </col>
-    <row><cell></cell>
-    </row>
+        <definition>
+            <title>Function Operations &#x26;Compositions</title>
 
-    <row>
-      <cell> <alert>sum</alert> </cell>
-      <cell>“f plus g”</cell>
-      <cell> <m>(f+g)(x)=f(x)+g(x)</m> </cell>
-      <cell>provided <m>x</m> is common to the domains of both <m>f</m> and <m>g</m> </cell>
-      
-    </row>
+            <statement>
+                <p>
+                    Given two functions <m>f(x)</m> and <m>g(x)</m>
+                </p>
+            </statement>
+        </definition>
 
-    <row>
-      <cell> <alert>difference</alert> </cell>
-      <cell>“f minus g”</cell>
-      <cell> <m>(f-g)(x)=f(x)-g(x)</m> </cell>
-    </row>
+        <tabular>
+            <col halign="right"> </col> <col> </col> <col> </col> <col halign="justify"> </col>
+            <row>
+                <cell></cell>
+            </row>
 
-    <row>
-      <cell> <alert>product</alert> </cell>
-      <cell>“f times g”</cell>
-      <cell> <m>(f\cdot g)(x)=f(x)\cdot g(x)</m> </cell>
-    </row>
+            <row>
+                <cell> <alert>sum</alert> </cell>
+                <cell>“f plus g”</cell>
+                <cell> <m>(f+g)(x)=f(x)+g(x)</m> </cell>
+                <cell>provided <m>x</m> is common to the domains of both <m>f</m> and <m>g</m> </cell>
+            </row>
 
-    <row><cell></cell>
-    </row>
+            <row>
+                <cell> <alert>difference</alert> </cell>
+                <cell>“f minus g”</cell>
+                <cell> <m>(f-g)(x)=f(x)-g(x)</m> </cell>
+            </row>
 
-    <row>
-      <cell> <alert>quotient</alert> </cell>
-      <cell>“f divided by g”</cell>
-      <cell> <m>\left(\dfrac{f}{g}\right)(x)=\dfrac{f(x)}{g(x)}</m> </cell>
-      <cell>provided <m>g(x)\neq0</m> </cell>
-    </row>
+            <row>
+                <cell> <alert>product</alert> </cell>
+                <cell>“f times g”</cell>
+                <cell> <m>(f\cdot g)(x)=f(x)\cdot g(x)</m> </cell>
+            </row>
 
-    <row><cell></cell>
-    </row>
+            <row>
+                <cell></cell>
+            </row>
 
-    <row>
-      <cell> </cell>
-      <cell>“f composed with g”</cell>
-      <cell> </cell>
-      <cell>provided <m>x</m> is in the domain of <m>g</m> and <m>g(x)</m> is in the domain of <m>f</m> </cell>
-    </row>
+            <row>
+                <cell> <alert>quotient</alert> </cell>
+                <cell>“f divided by g”</cell>
+                <cell> <m>\left(\dfrac{f}{g}\right)(x)=\dfrac{f(x)}{g(x)}</m> </cell>
+                <cell>provided <m>g(x)\neq0</m> </cell>
+            </row>
 
-    <row>
-      <cell> <alert>composition</alert> </cell>
-      <cell>“f after g”</cell>
-      <cell> <m>(f\circ g)(x)=f(g(x))</m> </cell>
-    </row>
+            <row>
+                <cell></cell>
+            </row>
 
-    <row>
-      <cell> </cell>
-      <cell>“f of g”</cell>
-      <cell> </cell>
-    </row>
+            <row>
+                <cell> </cell>
+                <cell>“f composed with g”</cell>
+                <cell> </cell>
+                <cell>provided <m>x</m> is in the domain of <m>g</m> and <m>g(x)</m> is in the domain of <m>f</m> </cell>
+            </row>
 
-    <row><cell></cell>
-    </row>
-  </tabular>
+            <row>
+                <cell> <alert>composition</alert> </cell>
+                <cell>“f after g”</cell>
+                <cell> <m>(f\circ g)(x)=f(g(x))</m> </cell>
+            </row>
 
-</subsection>
+            <row>
+                <cell> </cell>
+                <cell>“f of g”</cell>
+                <cell> </cell>
+            </row>
 
-<subsection>
-    <title>Undoing Functions</title>
+            <row>
+                <cell></cell>
+            </row>
+        </tabular>
+    </subsection>
 
-  <definition>
-    <title>Inverse Function</title>
 
-    <statement>
-      <p>
-        Let <m>f</m> and <m>g</m> be two functions such that
+    <subsection>
+        <title>Undoing Functions</title>
+
+        <definition>
+            <title>Inverse Function</title>
+
+            <statement>
+                <p>
+                    Let <m>f</m> and <m>g</m> be two functions such that
+                    <ul>
+                        <li>
+                            <m>(f\circ g)(x)=f(g(x))=x</m> for every <m>x</m> in the domain of <m>g</m>
+                        </li>
+                    </ul>
+                    and
+                    <ul>
+                        <li>
+                            <m>(g\circ f)(x)=g(f(x))=x</m> for every <m>x</m> in the domain of <m>f</m>
+                        </li>
+                    </ul>
+                    Then the function <m>g</m> is called the <alert>inverse function of <m>f</m> </alert> and is denoted by <m>f^{-1}</m>.
+                </p>
+            </statement>
+        </definition>
+
+        <paragraph>
+        <title>Finding the Inverse of a Function</title>
+
+        Given an equation:
         <ul>
-          <li>
-              <m>(f\circ g)(x)=f(g(x))=x</m> for every <m>x</m> in the domain of <m>g</m>
-          </li>
+            <li>
+                Change <m>f(x)</m> to <m>y</m> if needed.
+            </li>
+
+            <li>
+                Swap <m>x</m> and <m>y</m>.
+            </li>
+
+            <li>
+                Solve for <m>y</m>.
+            </li>
+
+            <li>
+                Change <m>y</m> to <m>f^{-1}(x)</m> if needed.
+            </li>
         </ul>
-        and
+        Given a graph:
         <ul>
-          <li>
-              <m>(g\circ f)(x)=g(f(x))=x</m> for every <m>x</m> in the domain of <m>f</m>
-          </li>
+            <li>
+                Swap individual coordinates &#x26;connect the dots: <m>(a,b)</m> on the original becomes <m>(b,a)</m> on the inverse.
+            </li>
+
+            <li>
+                Alternatively, reflect the entire graph over the line <m>y=x</m>.
+            </li>
         </ul>
-        Then the function <m>g</m> is called the <alert>inverse function of <m>f</m> </alert> and is denoted by <m>f^{-1}</m>.
-      </p>
-    </statement>
-  </definition>
+        </paragraph>
 
-  <paragraph>
-    <title>Finding the Inverse of a Function</title>
+        <example>
+            <statement>
+                <title>(Finding the inverse of a function from an equation)</title>
 
-    Given an equation:
-    <ul>
-      <li>
-          Change <m>f(x)</m> to <m>y</m> if needed.
-      </li>
+                <m>f(x)=\dfrac{x+1}{x-2}</m>
+            </statement>
 
-      <li>
-          Swap <m>x</m> and <m>y</m>.
-      </li>
+            <solution>
+                <p>
+                    <m>y=\dfrac{x+1}{x-2}</m> <br/> <m>y(x-2)=x+1</m> <br/> <m>yx-2y=x+1</m> <br/> <m>yx-x=2y+1</m> <br/> <m>x(y-1)=2y+1</m> <br/> <m>x=\dfrac{2y+1}{y-1}</m> <br/> <m>f^{-1}(x)=\dfrac{2x+1}{x-1}</m>
+                </p>
 
-      <li>
-          Solve for <m>y</m>.
-      </li>
+                <p>
+                    To verify, we can check that <m>f(f^{-1}(x))=x</m> and <m>f^{-1}(f(x))=x</m>:
+                </p>
 
-      <li>
-          Change <m>y</m> to <m>f^{-1}(x)</m> if needed.
-      </li>
-    </ul>
-    Given a graph:
-    <ul>
-      <li>
-          Swap individual coordinates &#x26;connect the dots: <m>(a,b)</m> on the original becomes <m>(b,a)</m> on the inverse.
-      </li>
-
-      <li>
-          Alternatively, reflect the entire graph over the line <m>y=x</m>.
-      </li>
-    </ul>
-  </paragraph>
-
-    <example>
-      <statement>
-          <title>(Finding the inverse of a function from an equation)</title> <m>f(x)=\dfrac{x+1}{x-2}</m>
-      </statement>
-      <solution>
-          <p>
-              <m>y=\dfrac{x+1}{x-2}</m> <br/>
-              <m>y(x-2)=x+1</m> <br/>
-              <m>yx-2y=x+1</m> <br/>
-              <m>yx-x=2y+1</m> <br/>
-              <m>x(y-1)=2y+1</m> <br/>
-              <m>x=\dfrac{2y+1}{y-1}</m> <br/>
-              <m>f^{-1}(x)=\dfrac{2x+1}{x-1}</m>
-          </p>
-        <p> To verify, we can check that <m>f(f^{-1}(x))=x</m> and <m>f^{-1}(f(x))=x</m>:</
-          <p>
-              <m>f^{-1}(x)=\dfrac{2x+1}{x-1}</m> <br/>
-              <m>f(f^{-1}(x))=f\left(\dfrac{2x+1}{x-1}\right)=\dfrac{\dfrac{2x+1}{x-1}+1}{\dfrac{2x+1}{x-1}-2}</m> <br/>
-              <m>=\dfrac{\dfrac{2x+1+x-1}{x-1}}{\dfrac{2x+1-2(x-1)}{x-1}}=\dfrac{\dfrac{3x}{x-1}}{\dfrac{-x+3}{x-1}}=\dfrac{3x}{-x+3}=\dfrac{-3x}{3-x}=x</m>
-          </p>
-    </example>
-
-</subsection>
-  </section>
+                <p>
+                    <m>f^{-1}(x)=\dfrac{2x+1}{x-1}</m> <br/> <m>f(f^{-1}(x))=f\left(\dfrac{2x+1}{x-1}\right)=\dfrac{\dfrac{2x+1}{x-1}+1}{\dfrac{2x+1}{x-1}-2}</m> <br/> <m>=\dfrac{\dfrac{2x+1+x-1}{x-1}}{\dfrac{2x+1-2(x-1)}{x-1}}=\dfrac{\dfrac{3x}{x-1}}{\dfrac{-x+3}{x-1}}=\dfrac{3x}{-x+3}=\dfrac{-3x}{3-x}=x</m>
+                </p>
+            </solution>
+        </example>
+    </subsection>
+</section>
