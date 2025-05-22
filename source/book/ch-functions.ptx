@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-func-objectives.ptx" />
+  <xi:include href="sec-func-vocabulary.ptx" />
+  <xi:include href="sec-func-toolkit.ptx" />
+  <xi:include href="sec-func-transformations.ptx" />
+  <xi:include href="sec-func-combo-undo.ptx" />
+  <xi:include href="sec-func-inequality.ptx" />
+
+</chapter>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-func-toolkit" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Toolkit Functions</title>
+
+  <tabular left="minor">
+    <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col>
+    <row><cell></cell>
+    </row>
+
+    <row>
+      <cell> <alert>Constant</alert> </cell>
+      <cell> <alert>Identity</alert> </cell>
+    </row>
+
+    <row>
+      <cell> <m>\mathbf{f(x)=c}</m>, where <m>c</m> is a constant</cell>
+      <cell> <m>\mathbf{f(x)=x}</m> </cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+      <cell> </cell>
+    </row>
+
+    <row>
+      <cell> <image source="img/toolkit-constant.jpg">
+    </image>
+    </cell>
+
+    <cell> <image source="img/toolkit-identity.jpg">
+  </image>
+  </cell>
+</row>
+
+<row><cell></cell>
+</row>
+
+<row>
+  <cell> <alert>Absolute Value</alert> </cell>
+  <cell> <alert>Quadratic</alert> </cell>
+</row>
+
+<row>
+  <cell> <m>\mathbf{f(x)=|x|}</m> </cell>
+  <cell> <m>\mathbf{f(x)=x^2}</m> </cell>
+</row>
+
+<row>
+  <cell> </cell>
+  <cell> </cell>
+</row>
+
+<row>
+  <cell> <image source="img/toolkit-absval.jpg">
+</image>
+</cell>
+
+<cell> <image source="img/toolkit-quadratic.jpg">
+</image>
+</cell>
+</row>
+
+<row><cell></cell>
+</row>
+
+<row>
+  <cell> <alert>Cubic</alert> </cell>
+  <cell> <alert>Reciprocal</alert> </cell>
+</row>
+
+<row>
+  <cell> <m>\mathbf{f(x)=x^3}</m> </cell>
+  <cell> <m>\mathbf{f(x)=\dfrac{1}{x}}</m> </cell>
+</row>
+
+<row>
+  <cell> </cell>
+  <cell> </cell>
+</row>
+
+<row>
+  <cell> <image source="img/toolkit-cubic.jpg">
+</image>
+</cell>
+
+<cell> <image source="img/toolkit-reciprocal.jpg">
+</image>
+</cell>
+</row>
+
+<row><cell></cell>
+</row>
+
+<row>
+  <cell> <alert>Square Root</alert> </cell>
+  <cell> <alert>Cube Root</alert> </cell>
+</row>
+
+<row>
+  <cell> <m>\mathbf{f(x)=\sqrt{x}}</m> </cell>
+  <cell> <m>\mathbf{f(x)=\sqrt[3]{x}}</m> </cell>
+</row>
+
+<row>
+  <cell> </cell>
+  <cell> </cell>
+</row>
+
+<row>
+  <cell> <image source="img/toolkit-sqrt.jpg">
+</image>
+</cell>
+
+<cell> <image source="img/toolkit-cubert.jpg">
+</image>
+</cell>
+</row>
+
+<row><cell></cell>
+</row>
+</tabular>
+</section>

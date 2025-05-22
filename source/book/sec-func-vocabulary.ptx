@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-func-vocabulary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Function Vocabulary</title>
+
+            <definition>
+                <title>domain</title>
+
+                <statement>
+                    <p>
+                        The <alert>domain</alert> of a function <m>f</m> is the <em>largest</em> set of <em>real numbers</em> for which the value <em> <m>f(x)</m> </em> is a <em>real number</em>.
+                        Things to look out for
+                        <ul>
+                            <li>
+                                <p>
+                                    Division by <em>zero</em>
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <em>Even</em> roots of <em>negative</em> numbers
+                                </p>
+                            </li>
+                        </ul>
+                        NOTE: For word problems/verbal descriptions, the domain depends on the real-world <em>context</em> of the model.
+                    </p>
+                </statement>
+            </definition>
+
+            <p>
+            </p>
+
+            <example>
+                <statement>
+                    <p>
+                        <em>Finding the domain of a function from an equation</em>
+                    </p>
+
+                    <p>
+                        <m>f(x)=3x+2</m>  <m>g(x)=\dfrac{3x+2}{x+1}</m>  <m>h(x)=\sqrt{x-3}</m>
+                    </p>
+                </statement>
+            </example>
+
+            <definition>
+                <title>zero</title>
+
+                <statement>
+                    <p>
+                        If <m>f</m> is a function and <m>r</m> is a real number for which <em> <m>f(r)=0</m> </em>, then <m>r</m> is a <alert>zero</alert> of <m>f</m>.
+                        In other words, <m>r</m> is an <em>x-intercept</em> of the <em>graph</em> of <m>f</m>.
+                    </p>
+                </statement>
+            </definition>
+
+            <p>
+            </p>
+
+            <definition>
+                <title>maximum</title>
+
+                <statement>
+                    <p>
+                        The <alert>maximum</alert> of a function <m>f</m> is the <em>largest</em> value in the <em>range</em> of <m>f</m>.
+                        On the graph of <m>f</m>, the maximum is the <em>y-coordinate</em> of a point at the <em>top</em> of a <em>peak</em>.
+                    </p>
+                </statement>
+            </definition>
+
+            <p>
+            </p>
+
+            <definition>
+                <title>minimum</title>
+
+                <statement>
+                    <p>
+                        The <alert>minimum</alert> of a function <m>f</m> is the <em>smallest</em> value in the <em>range</em> of <m>f</m>.
+                        On the graph of <m>f</m>, the minimum is the <em>y-coordinate</em> of a point at the <em>bottom</em> of a <em>valley</em>.
+                    </p>
+                </statement>
+            </definition>
+
+            <p>
+            </p>
+
+            <definition>
+                <title>even</title>
+
+                <statement>
+                    <p>
+                        A function <m>f</m> is <alert>even</alert> if and only if it is symmetric with respect to the <em> <m>y</m>-axis</em>.
+                        <em> <m>f(x)=f(-x)</m> </em> for every <m>x</m>-value in the domain of <m>f</m>
+                    </p>
+                </statement>
+            </definition>
+
+            <p>
+            </p>
+
+            <definition>
+                <title>odd</title>
+
+                <statement>
+                    <p>
+                        A function <m>f</m> is <alert>odd</alert> if and only if it is symmetric with respect to the <em>origin</em>.
+                        <em> <m>f(-x)=-f(x)</m> </em> for every <m>x</m>-value in the domain of <m>f</m>
+                    </p>
+                </statement>
+            </definition>
+
+            <example>
+                <statement>
+                    <p>
+                        <em>(Determining Symmetry from an Equation)</em>  <m>f(x)=x^{4}+3x^{2}-x</m>
+                    </p>
+                </statement>
+            </example>
+
+</section>

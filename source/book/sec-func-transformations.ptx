@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-func-transformations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Transformations of Functions</title>
+
+  <definition>
+    <title>transformation</title>
+
+    <statement>
+      <p>
+        <alert>Transformations</alert> are rule-based <em>changes</em> to the graph of a function. Each transformation can occur in one of two directions: <em>vertical</em> or <em>horizontal</em>. There are three types of transformations:
+        <ul>
+          <li>
+            <p>
+              <em>Translation</em>- This represents a change in <em>location</em>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <em>Dilation</em>- This represents a change in <em>size</em>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <em>Reflection</em>- This represents a change in <em>orientation</em>.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Given a function <m>f(x)</m>, a transformation of <m>f(x)</m> is a function of the form
+  </p>
+
+  <tabular>
+    <row>
+      <cell> </cell>
+    </row>
+
+    <row>
+      <cell> <alert> <m>\mathbf{a}</m>: vertical dilation and/or reflection</alert> </cell>
+      <cell>negative: reflect over <m>x</m>-axis</cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+      <cell> <m>\mathbf{|a|}>1</m> taller    <m>\mathbf{|a|}&#x3C;1</m> shorter</cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+    </row>
+
+    <row>
+      <cell> <alert> <m>\mathbf{b}</m>: horizontal dilation and/or reflection</alert> </cell>
+      <cell>negative: reflect over <m>y</m>-axis</cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+      <cell> <m>\mathbf{|b|}>1</m> narrower    <m>\mathbf{|b|}&#x3C;1</m> wider</cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+    </row>
+
+    <row>
+      <cell> <alert> <m>\mathbf{c}</m>: horizontal translation</alert> </cell>
+      <cell> <m>\mathbf{c}</m> positive (subtraction from <m>x</m>): right</cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+      <cell> <m>\mathbf{c}</m> negative (addition to x): left</cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+    </row>
+
+    <row>
+      <cell> <alert> <m>\mathbf{d}</m>: vertical translation</alert> </cell>
+      <cell> <m>\mathbf{d}</m> positive: up</cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+      <cell> <m>\mathbf{d}</m> negative: down</cell>
+    </row>
+
+    <row>
+      <cell> </cell>
+    </row>
+  </tabular>
+
+  <p>
+    Note: Follow the order of operations to perform multiple transformations in sequence: <m>\mathbf{c}</m>, then <m>\mathbf{b}</m>, then <m>\mathbf{a}</m>, then <m>\mathbf{d}</m>.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        <em>(Transforming Points)</em>Describe the sequence of transformations of the graph of <m>f(x)=x^{2}</m> to obtain the graph of <m>g(x)=-3(x+2)^{2} -1</m>, then sketch <m>g(x)</m>.
+      </p>
+    </statement>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        <em>(Transforming Features)</em>Describe the sequence of transformations of the graph of <m>f(x)=|x|</m> to obtain the graph of <m>g(x)=-3|x+2|-1</m>, then sketch <m>g(x)</m>.
+      </p>
+    </statement>
+  </example>
+</section>
