@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-poly-inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Polynomial Inequalities</title>
+
+    <p>
+        To solve a polynomial inequality, follow these steps:
+    </p>
+<p>
+    <ol>
+        <li>
+            Solve the corresponding polynomial equation to find the critical points.
+        </li>
+
+        <li>
+            Test points between and beyond each critical point in the original inequality to determine the intervals on which the inequality is true.
+        </li>
+
+        <li>
+            Write the solution in interval notation.
+        </li>
+    </ol>
+</p>
+         <example>
+            <statement>
+                <p>
+                    Find all solutions to the inequality <m>x^{4}+x^{3}-15x^{2}-3x&#x3C;-36</m>
+                </p>
+            </statement>
+        </example>   
+
+</section>

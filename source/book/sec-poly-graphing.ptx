@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-poly-graphing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Steps for Graphing a Polynomial</title>
+
+  <p>
+    The following steps can be used to sketch the graph of a polynomial function <m>f</m> given in factored form.
+    The steps are not necessarily in order, and some may be skipped depending on the function.
+    The more information you have about the function, the easier it will be to sketch the graph.
+    The more points you have, the more accurate the graph will be.
+  </p>
+
+  <p>
+    <ol>
+      <li>
+        Check for <em>symmetry</em>.
+        (optional)
+      </li>
+
+      <li>
+        Determine the <em>real zeros</em> of the function and their <em>multiplicities</em>.
+        Use this information to determine whether the graph <em>crosses</em> or <em>bounces</em> on the <m>x</m>-axis at each <m>x</m>-intercept.
+      </li>
+
+      <li>
+        Determine the <em>end behavior</em> as <m>x\rightarrow\infty</m> and as <m>x\rightarrow-\infty</m>
+      </li>
+
+      <li>
+        Find the <em> <m>y</m>-intercept</em> of the graph of the function by evaluating <m>f(0)</m>.
+      </li>
+
+      <li>
+        Find <em>additional points</em> between intercepts as needed.
+      </li>
+
+      <li>
+        Draw a <em>smooth curve</em> through the points to sketch the graph.
+      </li>
+    </ol>
+  </p>
+
+  <example>
+    <title>(Sketching the graph of a polynomial from factored form)</title>
+
+    <statement>
+      <p>
+        <m>f(x)=(x-2)(x+3)^{2}(x-5)</m>
+      </p>
+    </statement>
+  </example>
+</section>

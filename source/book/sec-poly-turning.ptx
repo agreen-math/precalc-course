@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-poly-turning" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Turning Points</title>
+
+            <p>
+            If <m>f</m> is a polynomial function of <em>degree</em> <m>n</m>, then the graph of <m>f</m> has <em>at most</em> <m>n-1</m> <em>turning points</em>.
+            (This also works in reverse: <m>n-1</m> <em>turning points</em> means the <em>degree is at least</em> <m>n</m>)
+        </p>
+
+</section>

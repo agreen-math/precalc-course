@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-polynomials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Polynomial Functions</title>
+
+    <objectives>
+        <title>Polynomial Functions</title>
+
+        <ul>
+            <li>
+                Determine roots of polynomial functions, including multiplicity.
+                <alert> (Analyzing) </alert>
+        </li>
+
+        <li>
+                Determine symmetry of polynomial functions.
+                <alert> (Analyzing) </alert>
+        </li>
+
+        <li>
+                Determine end behavior of polynomial functions.
+                <alert>(Analyzing) </alert>
+        </li>
+
+        <li>
+                Write the equation of a polynomial function given the characteristics or a graph of the polynomial function.
+                <alert>(Graphing) </alert>
+        </li>
+
+        <li>
+                Solve polynomial equations and inequalities.
+                <alert>(Solving) </alert>
+        </li>
+
+        <li>
+                Sketch the graph of a polynomial function.
+                <alert>(Graphing) </alert>
+        </li>
+
+        <li>
+                Solve applications involving polynomial functions or inequalities.
+                <alert>(Solving) </alert>
+        </li>
+    </ul>
+    </objectives>
+    
+    <!-- include sections -->
+    <xi:include href="sec-poly-definitions.ptx" />
+    <xi:include href="sec-poly-end.ptx" />
+    <xi:include href="sec-poly-turning.ptx" />
+    <xi:include href="sec-poly-zeros.ptx" />
+    <xi:include href="sec-poly-graphing.ptx" />
+    <xi:include href="sec-poly-inequalities.ptx" />
+</chapter>

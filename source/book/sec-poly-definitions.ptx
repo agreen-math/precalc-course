@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-poly-definitions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title></title>
+
+       <definition>
+        <title>(polynomial function, leading coefficient, degree)</title>
+
+        <statement>
+            <p>
+                A <alert>polynomial function</alert> is a function of the form
+                <me>
+                    f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots+a_{1}x+a_{0}
+                </me>
+                where
+                <ul>
+                    <li>
+                            <m>a_{n}</m> is a real number called the <em>leading coefficient</em>
+                    </li>
+
+                    <li>
+                            <m>n\ge 0</m> is a whole number called the <em>degree</em>
+                    </li>
+                </ul>
+        <ul>
+        <li>
+                The <em>domain</em> of a polynomial function is the set of <em>all real numbers</em>.
+        </li>
+
+        <li>
+                The <em>graph</em> of a polynomial function is both <em>smooth</em> (no <em>sharp corners</em> or <em>cusps</em>) and <em>continuous</em> (no <em>gaps</em> or <em>holes</em>).
+        </li>
+    </ul></p>
+        </statement>
+    </definition>
+
+    
+
+</section>

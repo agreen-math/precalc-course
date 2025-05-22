@@ -1,18 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Functions</title>
+    <title>Functions</title>
 
-  <introduction>
-    <p> Text before the first section. </p>
-  </introduction>
+    <objectives>
+        <title>Functions</title>
 
-  <!-- include sections -->
-  <xi:include href="sec-func-objectives.ptx" />
-  <xi:include href="sec-func-vocabulary.ptx" />
-  <xi:include href="sec-func-toolkit.ptx" />
-  <xi:include href="sec-func-transformations.ptx" />
-  <xi:include href="sec-func-combo-undo.ptx" />
-  <xi:include href="sec-func-inequality.ptx" />
+        <ul>
+            <li>
+                Find domain &#x26;range of functions.
+                <alert>(Analyzing)</alert>
+            </li>
 
+            <li>
+                Determine symmetry of functions.
+                <alert>(Analyzing)</alert>
+            </li>
+
+            <li>
+                Graph functions using transformations.
+                <alert>(Graphing) </alert>
+            </li>
+
+            <li>
+                Write equations for transformed functions.
+                <alert>(Graphing) </alert>
+            </li>
+
+            <li>
+                Find compositions of functions.
+                <alert>(Analyzing) </alert>
+            </li>
+
+            <li>
+                Find inverses of functions.
+                <alert>(Analyzing) </alert>
+            </li>
+
+
+            <li>
+                Use graphs to solve inequalities.
+                <alert>(Foundations) </alert>
+            </li>
+
+            <li>
+                Solve inequalities using the test-point method.
+                <alert>(Solving) </alert>
+            </li>
+        </ul>
+    </objectives>
+
+  
+    <!-- include sections -->
+    <xi:include href="sec-func-vocabulary.ptx" />
+    <xi:include href="sec-func-toolkit.ptx" />
+    <xi:include href="sec-func-transformations.ptx" />
+    <xi:include href="sec-func-combo-undo.ptx" />
+    <xi:include href="sec-func-inequality.ptx" />
 </chapter>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-poly-end" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>End Behavior</title>
+
+  <subsection xml:id="subsec-poly-leading-term-test">
+    <title>The Leading Term Test</title>
+<p>
+      The <em>leading term test</em> is a way to determine the <em>end behavior</em> of a polynomial function.
+      The end behavior of a polynomial function is determined by the <em>degree</em> and the <em>leading coefficient</em>.
+    <ul>
+      <li>
+          <em>Odd</em> degree polynomial functions
+          <ul>
+            <li>
+                Ends go toward <em>opposite</em> infinities
+            </li>
+          </ul>
+      </li>
+
+      <li>
+          <em>Even</em> degree polynomial functions
+          <ul>
+            <li>
+                Ends go toward <em>the same</em> infinity
+            </li>
+          </ul>
+      </li>
+
+      <li>
+          <em>Positive</em> leading coefficient
+          <ul>
+            <li>
+                the right end goes toward <em>positive</em> infinity
+            </li>
+          </ul>
+      </li>
+
+      <li>
+          <em>Negative</em> leading coefficient
+          <ul>
+            <li>
+                the right end goes toward <em>negative</em> infinity
+            </li>
+          </ul>
+
+          <image source="img/leadcoeff.png">
+          </image>
+      </li>
+    </ul>
+</p>
+  </subsection>
+
+  <subsection xml:id="subsec-poly-limits">
+    <title>Limits at Infinity</title>
+    <p> Limit notation is a way to describe the end behavior of a function.
+      The notation <m>\lim_{x\to\infty}f(x)=L</m> means that as <m>x</m> approaches <em>positive infinity</em>, the function approaches the value <m>L</m>. This describes the <em>right end</em> of the graph.
+      The notation <m>\lim_{x\to-\infty}f(x)=L</m> means that as <m>x</m> approaches <em>negative infinity</em>, the function approaches the value <m>L</m>. This describes the <em>left end</em> of the graph.
+    </p>
+    </subsection>
+
+</section>

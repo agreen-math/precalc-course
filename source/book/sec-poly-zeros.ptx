@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-poly-zeros" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Real Zeros and Multiplicity</title>
+
+  <p>
+    If <m>(x-r)^{m}</m> is a factor of a polynomial function <m>f</m> (where <m>m</m> is the <em>highest exponent</em> possible), then <m>r</m> is called a <em>real zero of multiplicity <m>m</m> of <m>f</m> </em>.
+  </p>
+
+  <p>
+    <ul>
+      <li>
+        If <m>r</m> has <em>odd</em> multiplicity, the graph will <em>cross</em> the <m>x</m>-axis at <m>x=r</m>.
+        <ul>
+          <li>
+            The sign of <m>f(x)</m> <em>changes</em> from one side to the other.
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        If <m>r</m> has <em>even</em> multiplicity, the graph will <em>bounce</em> the <m>x</m>-axis at <m>x=r</m>.
+        <ul>
+          <li>
+            The sign of <m>f(x)</m> <em>does not change</em> from one side to the other.
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    <alert>NOTE: Vocabulary</alert>  The following statements are equivalent for polynomial functions:
+  </p>
+
+  <p>
+    <ul>
+      <li>
+        <m>r</m> is a real number for which <em> <m>f(r)=0</m> </em>
+      </li>
+
+      <li>
+        <m>r</m> is a <em>real zero</em> of the polynomial function <m>f</m>
+      </li>
+
+      <li>
+        <m>r</m> is a <em>root</em> of the polynomial function <m>f</m>
+      </li>
+
+      <li>
+        <m>r</m> is an <em> <m>x</m>-intercept</em> of the graph of <m>f</m>
+      </li>
+
+      <li>
+        <m>(x-r)</m> is a <em>factor</em> of the graph of <m>f</m>
+      </li>
+
+      <li>
+        <m>r</m> is a <em>real solution</em> of the equation <m>f(x)=0</m>
+      </li>
+    </ul>
+  </p>
+</section>

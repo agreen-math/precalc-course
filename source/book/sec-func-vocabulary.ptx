@@ -4,7 +4,7 @@
   <title>Function Vocabulary</title>
 
             <definition>
-                <title>domain</title>
+                <title>(domain)</title>
 
                 <statement>
                     <p>
@@ -32,19 +32,16 @@
             </p>
 
             <example>
+            <title>(Finding the domain of a function from an equation)</title>
                 <statement>
-                    <p>
-                        <em>Finding the domain of a function from an equation</em>
-                    </p>
-
-                    <p>
+                                  <p>
                         <m>f(x)=3x+2</m>  <m>g(x)=\dfrac{3x+2}{x+1}</m>  <m>h(x)=\sqrt{x-3}</m>
                     </p>
                 </statement>
             </example>
 
             <definition>
-                <title>zero</title>
+                <title>(zero)</title>
 
                 <statement>
                     <p>
@@ -58,7 +55,7 @@
             </p>
 
             <definition>
-                <title>maximum</title>
+                <title>(maximum)</title>
 
                 <statement>
                     <p>
@@ -72,7 +69,7 @@
             </p>
 
             <definition>
-                <title>minimum</title>
+                <title>(minimum)</title>
 
                 <statement>
                     <p>
@@ -86,7 +83,7 @@
             </p>
 
             <definition>
-                <title>even</title>
+                <title>(even)</title>
 
                 <statement>
                     <p>
@@ -100,7 +97,7 @@
             </p>
 
             <definition>
-                <title>odd</title>
+                <title>(odd)</title>
 
                 <statement>
                     <p>
@@ -111,9 +108,10 @@
             </definition>
 
             <example>
+            <title>(Determining symmetry from an equation)</title>
                 <statement>
                     <p>
-                        <em>(Determining Symmetry from an Equation)</em>  <m>f(x)=x^{4}+3x^{2}-x</m>
+                       <m>f(x)=x^{4}+3x^{2}-x</m>
                     </p>
                 </statement>
             </example>
