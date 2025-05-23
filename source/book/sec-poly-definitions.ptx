@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-poly-definitions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title></title>
+    <title>Polynomial Vocabulary</title>
 
        <definition>
         <title>(polynomial function, leading coefficient, degree)</title>
