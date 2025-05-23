@@ -195,8 +195,8 @@ var ptx_lunr_docs = [
   "url": "sec-poly-definitions.html",
   "type": "Section",
   "number": "2.1",
-  "title": "",
-  "body": "   (polynomial function, leading coefficient, degree)   A polynomial function is a function of the form where   is a real number called the leading coefficient    is a whole number called the degree     The domain of a polynomial function is the set of all real numbers .  The graph of a polynomial function is both smooth (no sharp corners or cusps ) and continuous (no gaps or holes ).     "
+  "title": "Polynomial Vocabulary",
+  "body": " Polynomial Vocabulary   (polynomial function, leading coefficient, degree)   A polynomial function is a function of the form where   is a real number called the leading coefficient    is a whole number called the degree     The domain of a polynomial function is the set of all real numbers .  The graph of a polynomial function is both smooth (no sharp corners or cusps ) and continuous (no gaps or holes ).     "
 },
 {
   "id": "sec-poly-definitions-2",
