@@ -5,8 +5,8 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="pre-calc">
-    <title>MATH 2412: Pre-calculus</title>
-    <subtitle>Midland College</subtitle>
+    <title>MATH 2412</title>
+    <subtitle>Pre-Calculus</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
