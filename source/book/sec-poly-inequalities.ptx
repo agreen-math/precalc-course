@@ -20,8 +20,9 @@
             Write the solution in interval notation.
         </li>
     </ol>
+     
 </p>
-         <example>
+         <example><title>(Solving a polynomial inequality)</title>
             <statement>
                 <p>
                     Find all solutions to the inequality <m>x^{4}+x^{3}-15x^{2}-3x&#x3C;-36</m>
