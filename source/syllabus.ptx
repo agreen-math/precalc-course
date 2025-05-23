@@ -5,8 +5,8 @@
   <xi:include href="./docinfo.ptx" />
 
   <article xml:id="syllabus">
-    <title>Course Name Syllabus</title>
-    <subtitle>Prefix 101</subtitle>
+    <title>Pre-Calculus Syllabus</title>
+    <subtitle>MATH 2412</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
