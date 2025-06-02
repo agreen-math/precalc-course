@@ -164,7 +164,7 @@
       <!--<cross-references knowled="cross-page" />-->
 
     <!-- embed page button  -->
-     <embed-button="yes" />
+     <html embed-button="yes" />
 
     <!-- Embedded calculators.  For math, this could be geogebra-classic, geogebra-graphing,
     geogebra-geometry, and geogebra-3d.  For ActiveCode, you can specify a language (python,
