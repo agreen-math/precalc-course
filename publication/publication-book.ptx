@@ -146,7 +146,8 @@
     <!-- override defaults.  Ex:<css theme="denver"/>          -->
     <!-- See also                                              -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
-      <!--<css theme="denver"/>-->
+      <css theme="denver"/>
+      <css palette="bold2" />
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
@@ -161,6 +162,9 @@
 
     <!-- xref options: control whether cross-references are knowls or links -->
       <!--<cross-references knowled="cross-page" />-->
+
+    <!-- embed page button  -->
+     <embed-button="yes" />
 
     <!-- Embedded calculators.  For math, this could be geogebra-classic, geogebra-graphing,
     geogebra-geometry, and geogebra-3d.  For ActiveCode, you can specify a language (python,
