@@ -196,16 +196,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Polynomial Vocabulary",
-  "body": " Polynomial Vocabulary   (polynomial function, leading coefficient, degree)   A polynomial function is a function of the form where   is a real number called the leading coefficient    is a whole number called the degree     The domain of a polynomial function is the set of all real numbers .  The graph of a polynomial function is both smooth (no sharp corners or cusps ) and continuous (no gaps or holes ).     "
+  "body": " Polynomial Vocabulary   In this section, we will define polynomial functions and discuss their characteristics. We will also discuss how to determine the degree and leading coefficient of a polynomial function.    (polynomial function, leading coefficient, degree)   A polynomial function is a function of the form where   is a real number called the leading coefficient    is a whole number called the degree         The domain of a polynomial function is the set of all real numbers .  The graph of a polynomial function is both smooth (no sharp corners or cusps ) and continuous (no gaps or holes ).     "
 },
 {
-  "id": "sec-poly-definitions-2",
+  "id": "sec-poly-definitions-3",
   "level": "2",
-  "url": "sec-poly-definitions.html#sec-poly-definitions-2",
+  "url": "sec-poly-definitions.html#sec-poly-definitions-3",
   "type": "Definition",
   "number": "2.1.1",
   "title": "(polynomial function, leading coefficient, degree).",
-  "body": " (polynomial function, leading coefficient, degree)   A polynomial function is a function of the form where   is a real number called the leading coefficient    is a whole number called the degree     The domain of a polynomial function is the set of all real numbers .  The graph of a polynomial function is both smooth (no sharp corners or cusps ) and continuous (no gaps or holes ).    "
+  "body": " (polynomial function, leading coefficient, degree)   A polynomial function is a function of the form where   is a real number called the leading coefficient    is a whole number called the degree     "
+},
+{
+  "id": "sec-poly-definitions-4",
+  "level": "2",
+  "url": "sec-poly-definitions.html#sec-poly-definitions-4",
+  "type": "Note",
+  "number": "2.1.2",
+  "title": "",
+  "body": "   The domain of a polynomial function is the set of all real numbers .  The graph of a polynomial function is both smooth (no sharp corners or cusps ) and continuous (no gaps or holes ).    "
 },
 {
   "id": "sec-poly-end",
@@ -214,7 +223,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "End Behavior",
-  "body": " End Behavior   The Leading Term Test  The leading term test is a way to determine the end behavior of a polynomial function. The end behavior of a polynomial function is determined by the degree and the leading coefficient .   Odd degree polynomial functions  Ends go toward opposite infinities     Even degree polynomial functions  Ends go toward the same infinity     Positive leading coefficient  the right end goes toward positive infinity     Negative leading coefficient  the right end goes toward negative infinity          Limits at Infinity  Limit notation is a way to describe the end behavior of a function. The notation means that as approaches positive infinity , the function approaches the value . This describes the right end of the graph. The notation means that as approaches negative infinity , the function approaches the value . This describes the left end of the graph.   "
+  "body": " End Behavior   The Leading Term Test  The leading term test is a way to determine the end behavior of a polynomial function. The end behavior of a polynomial function is determined by the degree and the leading coefficient .   Odd degree polynomial functions  Ends go toward opposite infinities     Even degree polynomial functions  Ends go toward the same infinity     Positive leading coefficient  the right end goes toward positive infinity     Negative leading coefficient  the right end goes toward negative infinity          Limits at Infinity  Limit notation is a way to describe the end behavior of a function.  The notation is read as \"the limit of as approaches positive infinity is \" and means that, as approaches positive infinity , the output ( or ) values function approach the value . This describes the right end of the graph.    For polynomial functions, the limit as approaches positive infinity is either positive infinity or negative infinity .    The notation is read as \"the limit of as approaches negative infinity is \" and means that, as approaches negative infinity , the output ( or ) values function approach the value . This describes the left end of the graph.    For polynomial functions, the limit as approaches negative infinity is either positive infinity or negative infinity .     Infinity is not a real number, and a limit is defined as a real number that a function approaches. However, it's common to say that the limit is \"infinity\" or \"diverges to infinity\" to describe the unbounded behavior of the function.    "
+},
+{
+  "id": "subsec-poly-limits-7",
+  "level": "2",
+  "url": "sec-poly-end.html#subsec-poly-limits-7",
+  "type": "Note",
+  "number": "2.2.1",
+  "title": "",
+  "body": " Infinity is not a real number, and a limit is defined as a real number that a function approaches. However, it's common to say that the limit is \"infinity\" or \"diverges to infinity\" to describe the unbounded behavior of the function.  "
 },
 {
   "id": "sec-poly-turning",
