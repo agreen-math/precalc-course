@@ -2,7 +2,13 @@
 
 <section xml:id="sec-func-vocabulary" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Function Vocabulary</title>
-
+<introduction>
+    <p>
+        In this section, we will define some vocabulary related to functions.
+        This vocabulary will be used throughout the course, so it is important to understand these terms.
+        We will also discuss how to determine the domain of a function, as well as how to identify zeros, maxima, minima, and symmetry of a function.
+    </p>
+</introduction>
             <definition>
                 <title>(domain)</title>
 

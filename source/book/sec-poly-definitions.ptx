@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-poly-definitions" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Polynomial Vocabulary</title>
+  <title>Polynomial Functions Vocabulary</title>
 <introduction>
     <p>
         In this section, we will define polynomial functions and discuss their

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-rationals" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Rational Functions</title>
+
+<objectives>
+    <title> Rational Functions</title>
+    <ul>
+<li>Find the domain and intercepts of a rational function.
+<alert> (Analyzing) </alert>
+</li>
+<li>Locate vertical, horizontal, and oblique asymptotes of a rational function.
+<alert> (Analyzing) </alert>
+</li>
+<li>  Write the equation of a rational function given the characteristics or a graph of the polynomial function.
+<alert> (Graphing) </alert>
+</li>
+<li>Solve rational equations and inequalities.
+<alert> (Solving) </alert>
+</li>
+<li>Sketch the graph of a rational function.
+<alert> (Graphing) </alert>
+</li>
+<li>Use limit notation to describe asymptotes and end behavior of a rational function.
+<alert> (Analyzing) </alert>
+</li>
+<li>Solve applications involving rational functions.
+<alert> (Solving) </alert>
+</li>
+<li>Decompose a rational expression into partial fractions.
+<alert> (Manipulating) </alert>
+</li>
+    </ul>
+</objectives>
+
+    <!-- include sections -->
+    <xi:include href="sec-rational-definitions.ptx" />
+    <xi:include href="sec-rational-domain.ptx" />
+    <xi:include href="sec-rational-asymptotes.ptx" />
+    <xi:include href="sec-rational-graphing.ptx" />
+    <xi:include href="sec-rational-limits.ptx" />
+    <xi:include href="sec-rational-partial-fractions.ptx" />
+
+</chapter>

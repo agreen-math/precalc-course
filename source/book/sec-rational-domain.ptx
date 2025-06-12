@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-rational-domain" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Domain of Rational Functions</title>
+
+    <alert>Domain "issues" include vertical asymptotes and holes.</alert>
+    <definition>
+        <title>Vertical Asymptote</title>
+
+        <statement>
+            <p>
+                The line <m>x=a</m> is a <alert>vertical asymptote</alert> of the graph of a function <m>f</m> if <m>f(x)</m> increases or decreases <em>without bound</em> as <m>x</m> approaches <m>a</m>.
+            </p>
+        </statement>
+    </definition>
+
+    <blockquote>
+        <p>
+            <image source="img/VA1.jpg" width="50%"/>\includegraphics[height=2in]{img/VA2.jpg}
+            </p>
+        </blockquote>
+
+        <definition>
+            <title>Hole</title>
+
+            <statement>
+                <p>
+                    A <alert>hole</alert> (empty circle) in the graph of <m>f(x)</m> may also occur for values of <m>x</m> which make both the <em>numerator <alert>and</alert> denominator</em> zero.
+                </p>
+            </statement>
+
+            <p>
+                The graph of the original <m>R(x)</m> and its simplified form are identical <em>except for any holes</em>.
+            </p>
+        </definition>
+    </section>

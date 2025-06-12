@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-rational-definitions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Rational Functions Vocabulary</title>
+
+    <introduction>
+        <p>
+            In this section, we will define rational functions and discuss their characteristics.
+            We will also discuss how to determine the domain, intercepts, and asymptotes of a rational function.
+            Understanding these concepts is crucial for analyzing and graphing rational functions effectively.
+            We will also explore how to identify vertical, horizontal, and oblique asymptotes, which are key features of rational functions.
+        </p>
+    </introduction>
+        <definition>
+            <title>Rational Function</title>
+<statement>
+           A <alert>rational function</alert> is a function of the form
+<me>
+    R(x)=\dfrac{n(x)}{d(x)}
+</me>
+where <m>n(x)</m> and <m>d(x)</m> are polynomial functions and <m>d</m> is not the zero polynomial.
+</statement>
+        
+         The <em>domain</em> of a rational function is the set of all real numbers <em>except</em> the &#x3C;m>x&#x3C;/m>-values for which <em> <m>d(x)=0</m> </em>.
+</definition>
+    </section>
